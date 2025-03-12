@@ -22,6 +22,7 @@ where
     T: Display + std::fmt::Debug,
 {
     println!("Announcement! {}", ann);
+
     if x.len() > y.len() {
         x
     } else {

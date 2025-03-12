@@ -6,7 +6,7 @@ fn main() {
 }
 
 #[allow(dead_code)]
-struct Point<T> {
+struct Point<T = i32> {
     x: T,
     y: T,
 }
